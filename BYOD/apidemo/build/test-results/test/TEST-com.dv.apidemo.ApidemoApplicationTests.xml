@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dv.apidemo.ApidemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-29T06:54:53" hostname="Lakshithas-MacBook-Pro-2.local" time="0.164">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.dv.apidemo.ApidemoApplicationTests" time="0.164"/>
+  <system-out><![CDATA[12:24:52.753 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ApidemoApplicationTests]: using SpringBootContextLoader
+12:24:52.755 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.dv.apidemo.ApidemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:24:52.756 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.dv.apidemo.ApidemoApplicationTests]: ApidemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:24:52.765 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [ApidemoApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+12:24:52.795 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/lakshitha/projects/OB/choreo/BYOD/apidemo/build/classes/java/main/com/dv/apidemo/ApidemoApplication.class]
+12:24:52.796 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.dv.apidemo.ApidemoApplication for test class com.dv.apidemo.ApidemoApplicationTests
+12:24:52.837 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:24:52.838 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:24:52.839 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [ApidemoApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+12:24:52.839 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [ApidemoApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2022-12-29T12:24:52.942+05:30  INFO 81561 --- [    Test worker] com.dv.apidemo.ApidemoApplicationTests   : Starting ApidemoApplicationTests using Java 18.0.1 with PID 81561 (started by lakshitha in /Users/lakshitha/projects/OB/choreo/BYOD/apidemo)
+2022-12-29T12:24:52.943+05:30  INFO 81561 --- [    Test worker] com.dv.apidemo.ApidemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-12-29T12:24:53.352+05:30  INFO 81561 --- [    Test worker] com.dv.apidemo.ApidemoApplicationTests   : Started ApidemoApplicationTests in 0.494 seconds (process running for 0.982)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
