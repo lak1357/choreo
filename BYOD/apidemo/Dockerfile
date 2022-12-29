@@ -7,7 +7,7 @@ FROM --platform=linux/amd64 eclipse-temurin:17-jdk-alpine
 ENV UID=12345
 ENV GID=23456
 
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+RUN addgroup -S spring && adduser -S spring -G spring
 
 USER spring
 
