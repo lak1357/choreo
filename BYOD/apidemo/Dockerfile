@@ -5,7 +5,7 @@ FROM --platform=linux/amd64 eclipse-temurin:17-jdk-alpine
 #RUN 
 #RUN groupadd -r spring && useradd -r -g spring -u 10001 spring
 ENV UID=12345
-ENV GID=23456
+ENV GID=13456
 
 RUN addgroup -S spring && adduser -S spring -G spring
 
