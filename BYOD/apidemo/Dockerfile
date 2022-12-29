@@ -4,10 +4,10 @@ FROM --platform=linux/amd64 eclipse-temurin:17-jdk-alpine
 #RUN adduser -S -u 18877 spring && addgroup -g 19877 spring && usermod -a -G spring spring
 #RUN 
 #RUN groupadd -r spring && useradd -r -g spring -u 10001 spring
-ENV UID=12345
-ENV GID=13456
+ENV UID=15011
+ENV GID=15011
 
-RUN addgroup -S spring && adduser -S spring -G spring
+RUN addgroup -S --gid 15011 spring && adduser -S --uid 15011 spring -G spring
 
 USER spring
 
